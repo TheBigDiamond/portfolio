@@ -1,0 +1,48 @@
+$primary-color: #290044;
+$secondary-color: #000000;
+
+html {
+  background: linear-gradient(to bottom, $primary-color, $secondary-color);
+  color: white;
+}
+
+.header_title {
+  text-align: left;
+  margin-right: 59%;
+}
+
+.nav {
+  display: flex;
+  position: sticky;
+  top: 0%;
+  overflow: hidden;
+  background: $primary-color;
+}
+
+.btn_about,
+.btn_projects,
+.btn_contactMe {
+  background-color: lavender;
+  background-repeat: no-repeat;
+  float: right;
+  border: grey, 5px, 5px, 5px, 5px;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.cv {
+text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+  margin-right: 4%;
+}
