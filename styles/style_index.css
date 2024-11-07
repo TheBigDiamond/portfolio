@@ -1,11 +1,12 @@
 html {
-  background: linear-gradient(to bottom, #290044, #000000);
-  color: white;
+  background-color: #ffffff;
+  color: black;
 }
 
 .header_title {
   text-align: left;
-  margin-right: 59%;
+  margin-right: 58%;
+  margin-left: 1%;
 }
 
 .nav {
@@ -13,7 +14,11 @@ html {
   position: sticky;
   top: 0%;
   overflow: hidden;
-  background: #290044;
+  background: #c70000;
+  color: white;
+  margin-top: -5%;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 
 .btn_about,
@@ -36,6 +41,7 @@ html {
 
 .cv {
   text-align: center;
+  margin-top: 5%;
 }
 
 ul {

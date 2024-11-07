@@ -1,11 +1,12 @@
 html {
-  background: linear-gradient(to bottom, #290044, #000000);
-  color: white;
+  background-color: #ffffff;
+  color: black;
 }
 
 .header_title {
   text-align: left;
-  margin-right: 72%;
+  margin-right: 70%;
+  margin-left: 1%;
 }
 
 .nav {
@@ -13,7 +14,11 @@ html {
   position: sticky;
   top: 0%;
   overflow: hidden;
-  background: #290044;
+  background: #c70000;
+  color: white;
+  margin-top: -5%;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 
 .btn_about,
@@ -34,23 +39,12 @@ html {
   padding-top: 5px;
 }
 
-.project_title {
-  display: flex;
-  margin-left: 45%;
-}
-
-p {
+.cv {
   text-align: center;
 }
 
-.greenEarth_img {
-  display: flex;
-  height: 80%;
-  width: 80%;
-  margin-left: 10%;
-}
-
-.greenEarth_socials {
-  display: flex;
-  margin-left: 35%;
+ul {
+  text-align: center;
+  list-style-position: inside;
+  margin-right: 4%;
 }/*# sourceMappingURL=style_projects.css.map */
