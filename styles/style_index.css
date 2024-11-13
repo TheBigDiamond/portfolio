@@ -1,51 +1,54 @@
 html {
-  background-color: #ffffff;
-  color: black;
+	background-color: #ffffff;
+	color: black;
 }
 
 .header_title {
-  text-align: left;
-  margin-right: 58%;
-  margin-left: 1%;
+	text-align: left;
+	margin-left: 1%;
+}
+
+.header_spacer {
+	width: 100%;
 }
 
 .nav {
-  display: flex;
-  position: sticky;
-  top: 0%;
-  overflow: hidden;
-  background: #303030;
-  color: white;
-  margin-top: -5%;
-  margin-left: -9px;
-  margin-right: -9px;
+	display: flex;
+	position: sticky;
+	top: 0%;
+	background: #303030;
+	color: white;
+	margin-top: -5%;
+	margin-left: -9px;
+	margin-right: -9px;
 }
 
 .btn_about,
 .btn_projects,
 .btn_contactMe {
-  background-color: lavender;
-  background-repeat: no-repeat;
-  float: right;
-  border: grey, 5px, 5px, 5px, 5px;
-  color: black;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  margin-top: 40px;
-  margin-left: 1%;
-  margin-bottom: 5%;
-  padding-bottom: 5px;
-  padding-top: 5px;
+	background-color: lavender;
+	background-repeat: no-repeat;
+	border: grey, 5px, 5px, 5px, 5px;
+	color: black;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 25px;
+	margin-top: 40px;
+	margin-left: 1%;
+	margin-bottom: 5%;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 .cv {
-  text-align: center;
-  margin-top: 5%;
+	text-align: center;
+	margin-top: 5%;
 }
 
 ul {
-  text-align: center;
-  list-style-position: inside;
-  margin-right: 4%;
-}/*# sourceMappingURL=style_index.css.map */
+	text-align: center;
+	list-style-position: inside;
+	margin-right: 4%;
+}
+
+/*# sourceMappingURL=style_index.css.map */
