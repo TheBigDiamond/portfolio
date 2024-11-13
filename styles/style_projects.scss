@@ -1,24 +1,24 @@
-// $primary-color: #290044;
 $primary-color: #ffffff;
 $secondary-color: #303030;
 
 html {
-  // background: linear-gradient(to bottom, $primary-color, $secondary-color);
   background-color: $primary-color;
   color: black;
 }
 
 .header_title {
-  text-align: left;
-  margin-right: 70%;
-  margin-left: 1%;
+	text-align: left;
+	margin-left: 1%;
+}
+
+.header_spacer {
+	width: 100%;
 }
 
 .nav {
   display: flex;
   position: sticky;
   top: 0%;
-  overflow: hidden;
   background: $secondary-color;
   color: white;
   margin-top: -5%;
@@ -42,14 +42,27 @@ html {
   margin-bottom: 5%;
   padding-bottom: 5px;
   padding-top: 5px;
+  align-items: center;
 }
 
-.cv {
-text-align: center;
+.project_title {
+  display: flex;
+  margin-left: 45%;
+  margin-top: 7%;
 }
 
-ul {
+p {
   text-align: center;
-  list-style-position: inside;
-  margin-right: 4%;
+}
+
+.greenEarth_img {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.greenEarth_socials {
+  display: flex;
+  margin-left: 35%;
 }

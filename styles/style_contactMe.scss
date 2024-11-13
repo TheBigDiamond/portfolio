@@ -1,24 +1,24 @@
-// $primary-color: #290044;
 $primary-color: #ffffff;
 $secondary-color: #303030;
 
 html {
-  // background: linear-gradient(to bottom, $primary-color, $secondary-color);
   background-color: $primary-color;
   color: black;
 }
 
 .header_title {
   text-align: left;
-  margin-right: 71%;
   margin-left: 1%;
+}
+
+.header_spacer {
+	width: 100%;
 }
 
 .nav {
   display: flex;
   position: sticky;
   top: 0%;
-  overflow: hidden;
   background: $secondary-color;
   color: white;
   margin-top: -5%;
@@ -42,6 +42,7 @@ html {
   margin-bottom: 5%;
   padding-bottom: 5px;
   padding-top: 5px;
+  align-items: center;
 }
 
 form {

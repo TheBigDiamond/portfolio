@@ -5,15 +5,17 @@ html {
 
 .header_title {
   text-align: left;
-  margin-right: 70%;
   margin-left: 1%;
+}
+
+.header_spacer {
+  width: 100%;
 }
 
 .nav {
   display: flex;
   position: sticky;
   top: 0%;
-  overflow: hidden;
   background: #303030;
   color: white;
   margin-top: -5%;
@@ -37,14 +39,27 @@ html {
   margin-bottom: 5%;
   padding-bottom: 5px;
   padding-top: 5px;
+  align-items: center;
 }
 
-.cv {
+.project_title {
+  display: flex;
+  margin-left: 45%;
+  margin-top: 7%;
+}
+
+p {
   text-align: center;
 }
 
-ul {
-  text-align: center;
-  list-style-position: inside;
-  margin-right: 4%;
+.greenEarth_img {
+  display: flex;
+  height: 80%;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.greenEarth_socials {
+  display: flex;
+  margin-left: 35%;
 }/*# sourceMappingURL=style_projects.css.map */
