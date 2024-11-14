@@ -45,21 +45,5 @@ html {
 .project_title {
   display: flex;
   margin-left: 45%;
-  margin-top: 7%;
-}
-
-p {
-  text-align: center;
-}
-
-.greenEarth_img {
-  display: flex;
-  height: 80%;
-  width: 80%;
-  margin-left: 10%;
-}
-
-.greenEarth_socials {
-  display: flex;
-  margin-left: 35%;
+  margin-top: 5%;
 }/*# sourceMappingURL=style_projects.css.map */
