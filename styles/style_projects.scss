@@ -27,8 +27,7 @@ html {
 }
 
 .btn_about,
-.btn_projects,
-.btn_contactMe {
+.btn_projects {
   background-color: lavender;
   background-repeat: no-repeat;
   float: right;
@@ -38,6 +37,22 @@ html {
   overflow: hidden;
   border-radius: 25px;
   margin-top: 40px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center;
+}
+
+.btn_contactMe {
+  background-color: lavender;
+  background-repeat: no-repeat;
+  border: grey, 5px, 5px, 5px, 5px;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-top: 33px;
   margin-left: 1%;
   margin-bottom: 5%;
   padding-bottom: 5px;

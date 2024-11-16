@@ -7,50 +7,65 @@ html {
 }
 
 .header_title {
-	text-align: left;
-	margin-left: 1%;
+  text-align: left;
+  margin-left: 1%;
 }
 
 .header_spacer {
-	width: 100%;
+  width: 100%;
 }
 
 .nav {
-	display: flex;
-	position: sticky;
-	top: 0%;
-	background: $secondary-color;
-	color: white;
-	margin-top: -5%;
-	margin-left: -9px;
-	margin-right: -9px;
+  display: flex;
+  position: sticky;
+  top: 0%;
+  background: $secondary-color;
+  color: white;
+  margin-top: -5%;
+  margin-left: -9px;
+  margin-right: -9px;
 }
 
 .btn_about,
-.btn_projects,
+.btn_projects {
+  background-color: lavender;
+  background-repeat: no-repeat;
+  border: grey, 5px, 5px, 5px, 5px;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-top: 40px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  align-items: center;
+}
+
 .btn_contactMe {
-	background-color: lavender;
-	background-repeat: no-repeat;
-	border: grey, 5px, 5px, 5px, 5px;
-	color: black;
-	cursor: pointer;
-	overflow: hidden;
-	border-radius: 25px;
-	margin-top: 40px;
-	margin-left: 1%;
-	margin-bottom: 5%;
-	padding-bottom: 5px;
-	padding-top: 5px;
+  background-color: lavender;
+  background-repeat: no-repeat;
+  border: grey, 5px, 5px, 5px, 5px;
+  color: black;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 25px;
+  margin-top: 33px;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
   align-items: center;
 }
 
 .cv {
-	text-align: center;
-	margin-top: 5%;
+  text-align: center;
+  margin-top: 5%;
 }
 
 ul {
-	text-align: center;
-	list-style-position: inside;
-	margin-right: 4%;
+  text-align: center;
+  list-style-position: inside;
+  margin-right: 4%;
 }
