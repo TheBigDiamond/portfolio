@@ -1,8 +1,5 @@
 ho notato che navigando il sito in modalità mobile (iPhone 12) ci sono problemi con la "responsività". Ogni sito deve essere mobile first. Rivediamo questa parte 
 perché è fondamentale per un buon sito web;
 
-la homepage dovrebbe essere un po' più parlante: metti qualche riferimento ai tuoi progetti, skills e prova a ravvivarla un po'. Anche la parte dei link, 
-non può essere una immagine ma deve essere per forza una parte sviluppata in HTML, altrimenti gli utenti non potranno interagire con essa.
-
 lato UX c'è sicuramente qualcosa da rivedere: al momento appare un po' piatto mentre dovremmo provare a dinamicizzarlo un po' e a ravvivarlo con un po' di colori. 
 Prova a prendere spunto da un lavoro fatto da una tua Collega: https://ga1a98.github.io/personal-website/
