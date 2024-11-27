@@ -63,7 +63,19 @@ html {
 }
 
 ul {
-  text-align: center;
+  text-align: right;
   list-style-position: inside;
   margin-right: 4em;
+}
+
+.education {
+  text-align: left;
+}
+
+.skills {
+  text-align: right;
+}
+
+.work_experience {
+  text-align: left;
 }/*# sourceMappingURL=style_index.css.map */
