@@ -60,6 +60,19 @@ html {
   align-items: center;
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: larger;
+}
+
+.index-page {
+  margin-left: -60px;
+  margin-right: -60px;
+}
+
 .cv {
   text-align: center;
   margin-top: 5em;
@@ -71,14 +84,44 @@ ul {
   margin-right: 4em;
 }
 
+.grad_cap {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-top: -3em;
+}
+
+.skills_img {
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.work_experience_img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+.text-container {
+  margin-left: 50px;
+}
+
 .education {
   text-align: left;
+  margin-left: 5em;
+  margin-top: 5em;
 }
 
 .skills {
   text-align: right;
+  margin-right: 5em;
 }
 
 .work_experience {
   text-align: left;
+  margin-left: 5em;
 }
