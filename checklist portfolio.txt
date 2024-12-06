@@ -1,5 +1,0 @@
-ho notato che navigando il sito in modalità mobile (iPhone 12) ci sono problemi con la "responsività". Ogni sito deve essere mobile first. Rivediamo questa parte 
-perché è fondamentale per un buon sito web;
-
-lato UX c'è sicuramente qualcosa da rivedere: al momento appare un po' piatto mentre dovremmo provare a dinamicizzarlo un po' e a ravvivarlo con un po' di colori. 
-Prova a prendere spunto da un lavoro fatto da una tua Collega: https://ga1a98.github.io/personal-website/
