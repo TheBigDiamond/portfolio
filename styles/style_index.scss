@@ -38,7 +38,7 @@ body {
   padding-bottom: 2em;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; // Prevent wrapping to a new line
 }
 
 .nav a {
