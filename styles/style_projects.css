@@ -58,8 +58,8 @@ html {
 
 .project_title {
   display: flex;
-  margin-left: 18em;
-  margin-top: 3em;
+  margin-left: 15em;
+  margin-top: 2em;
 }
 
 .container {
@@ -90,8 +90,7 @@ html {
     width: 100%;
     text-align: center;
   }
-  form {
-    margin: 2em auto;
-    width: 90%;
+  .container {
+    padding-top: 75%;
   }
 }/*# sourceMappingURL=style_projects.css.map */

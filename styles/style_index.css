@@ -98,7 +98,6 @@ ul {
   width: 200px;
   height: 150px;
   float: right;
-  margin-left: 20px;
 }
 
 .work_experience_img {
@@ -120,8 +119,8 @@ ul {
 
 .skills {
   text-align: right;
-  margin-right: 2em;
   margin-top: 7em;
+  margin-left: 5em;
 }
 
 .work_experience {
