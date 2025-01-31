@@ -97,6 +97,7 @@ ul {
   width: 200px;
   height: 150px;
   float: right;
+  margin-bottom: 2em;
 }
 
 .work_experience_img {
@@ -106,7 +107,15 @@ ul {
   margin-right: 10px;
 }
 
-.text-container {
+.text-container_ed {
+  margin-left: 50px;
+}
+
+.text-container_skills {
+  margin-left: 250px;
+}
+
+.text-container_work {
   margin-left: 50px;
 }
 
@@ -155,7 +164,7 @@ ul {
     width: 60%;
     height: auto;
   }
-  .text-container {
+  .text-container_skills {
     margin-left: 0;
   }
 }/*# sourceMappingURL=style_index.css.map */
