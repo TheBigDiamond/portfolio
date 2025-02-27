@@ -1,3 +1,3 @@
-[submodule "counter-js"]
+[submodule "assets/pages/counter-js"]
 	path = assets/pages/counter-js
 	url = https://github.com/TheBigDiamond/counter-js.git
