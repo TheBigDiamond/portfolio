@@ -1,0 +1,3 @@
+[submodule "counter-js"]
+	path = counter-js
+	url = https://github.com/TheBigDiamond/counter-js.git
