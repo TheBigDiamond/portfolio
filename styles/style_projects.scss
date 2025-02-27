@@ -61,8 +61,10 @@ html {
 
 .project_title {
   display: flex;
-  margin-left: 15em;
+  align-items: center;
+  justify-content: center;
   margin-top: 2em;
+  margin-bottom: 1em;
 }
 
 .container {
