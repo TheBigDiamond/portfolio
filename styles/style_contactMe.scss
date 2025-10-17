@@ -13,7 +13,7 @@ html {
 }
 
 .header_spacer {
-	width: 100%;
+  width: 100%;
 }
 
 .nav {
@@ -35,9 +35,9 @@ html {
 }
 
 .nav .nav-buttons {
-  margin-left: auto; // Push buttons to the right
+  margin-left: auto;
   display: flex;
-  gap: 0.5em; // Add space between buttons
+  gap: 0.5em;
 }
 
 .btn_about,
@@ -84,7 +84,7 @@ form {
   }
 
   form {
-    margin: 2em auto; // Adjust margin for smaller screens
-    width: 90%; // Ensure the form is responsive
+    margin: 2em auto;
+    width: 90%;
   }
 }

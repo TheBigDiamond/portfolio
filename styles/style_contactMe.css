@@ -1,85 +1,14 @@
-html {
-  background-color: #ffffff;
-  color: black;
-}
-
-.header_title {
-  text-align: left;
-  margin-left: 1em;
-  padding-bottom: 3px;
-}
-
-.header_spacer {
-  width: 100%;
-}
-
-.nav {
-  display: flex;
-  position: sticky;
-  top: 0%;
-  width: 100vw;
-  background: #303030;
-  color: white;
-  margin: 0;
-  margin-top: -2em;
-  margin-left: -1em;
-  padding: 1em 0;
-  padding-right: 1em;
-  padding-top: 1em;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-
-.nav .nav-buttons {
-  margin-left: auto;
-  display: flex;
-  gap: 0.5em;
-}
-
-.btn_about,
-.btn_projects,
-.btn_contactMe {
-  background-color: lavender;
-  border: 1px solid grey;
-  color: black;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 25px;
-  margin: 0 0.5em;
-  padding: 0.5em 1em;
-  height: auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-form {
-  text-align: center;
-  margin-top: 7em;
-  margin-left: 32em;
-  margin-right: 32em;
-  padding-top: 1em;
-  padding-bottom: 1em;
-  border-radius: 20px;
-  background-color: rgb(168, 168, 168);
-}
-
 @media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-    align-items: flex-start;
+  .navbar {
+    padding: 0.8rem 1rem;
   }
-  .btn_about,
-  .btn_projects,
-  .btn_contactMe {
-    width: 100%;
-    text-align: center;
+
+  .card {
+    margin: 1.5rem 0;
   }
-  form {
-    margin: 2em auto;
-    width: 90%;
+
+  .card-header {
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
   }
-}/*# sourceMappingURL=style_contactMe.css.map */
+}
